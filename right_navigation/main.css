@@ -1,0 +1,47 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+
+nav {
+  float: right;
+  list-style: none;
+  height: 483px;
+  padding: 10px;
+  background-color: #979797;
+  top: 0;
+  left: 0;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content {
+  margin-right: 168px;
+}
+
+nav>ul a {
+  display: block;
+  padding: 7px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.footer {
+  padding: 20px 166px;
+  border-top: solid;
+  border-top-color: #979797;
+}
