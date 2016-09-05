@@ -11,3 +11,39 @@ header {
   display: block;
   margin: 0 auto;
 }
+
+/*Fix Nav*/
+
+nav {
+  margin: 0 auto;
+  padding: 0;
+  height: 30px;
+  text-align: center;
+  list-style: none;
+  background-color: #979797;
+}
+
+nav>ul {
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+nav>ul>li {
+  display:inline-block;
+}
+
+nav>ul a {
+  display: block;
+  padding: 7px 67px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fefefe;
+}
+
+/*Footer*/
+
+.footer {
+  padding: 20px 0px;
+}
